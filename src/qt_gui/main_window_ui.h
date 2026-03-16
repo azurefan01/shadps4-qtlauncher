@@ -61,6 +61,7 @@ public:
     QPushButton* fullscreenButton;
     QPushButton* restartButton;
     QPushButton* versionManagerButton;
+    QPushButton* syncButton;
     QComboBox* versionComboBox;
 
     QWidget* sizeSliderContainer;

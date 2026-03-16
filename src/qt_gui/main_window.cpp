@@ -284,6 +284,7 @@ void MainWindow::AddUiWidgets() {
     versionLayout->setContentsMargins(0, 0, 0, 0);
     versionLayout->addWidget(ui->versionComboBox);
     versionLayout->addWidget(ui->versionManagerButton);
+    versionLayout->addWidget(ui->syncButton);
     ui->versionManagerButton->setText(tr("Version Manager"));
     ui->toolBar->addWidget(versionContainer);
 }
