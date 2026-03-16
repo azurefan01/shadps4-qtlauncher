@@ -286,6 +286,7 @@ void MainWindow::AddUiWidgets() {
     versionLayout->addWidget(ui->versionManagerButton);
     versionLayout->addWidget(ui->syncButton);
     ui->versionManagerButton->setText(tr("Version Manager"));
+    ui->syncButton->setText((tr("Sync Savedata")));
     ui->toolBar->addWidget(versionContainer);
 }
 

@@ -375,7 +375,7 @@ public:
         versionComboBox->setObjectName("versionComboBox");
         versionComboBox->setMinimumWidth(100);
         versionManagerButton = new QPushButton(centralWidget);
-
+        syncButton = new QPushButton(centralWidget);
         retranslateUi(MainWindow);
 
         QMetaObject::connectSlotsByName(MainWindow);
